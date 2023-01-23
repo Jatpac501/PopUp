@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopUp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Button__Box">
+        <a class="Button_Text" href="#popup1">вход</a>
+    </div>
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <a class="popup__close" href="#">X</a>
+            <div class="popup__title">Вход</div>
+            <input type="text" id="popup__login" class="popup__input" placeholder="Логин">
+            <input type="text" id="popup__password" class="popup__input" placeholder="Пароль">
+            <input type="button" value="Войти" class="popup__submit">
+        </div>
+    </div>
+</body>
+</html>
